@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gallery">#f0f0f0</color>
+    <color name="mine_shaft">#333333</color>
+    <color name="star_dust">#979797</color>
+    <color name="athens_gray">#E8ECF0</color>
+    <color name="calypso">#386994</color>
+    <color name="dodger_blue">#1EA1F2</color>
+</resources>

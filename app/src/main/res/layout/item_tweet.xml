@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/common_padding"
+    android:paddingTop="@dimen/common_padding"
+    tools:ignore="RtlSymmetry"
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageUserpic"
+        style="@style/ImageView.UserPic"
+        android:layout_marginStart="@dimen/common_padding"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/common_padding"
+        android:paddingStart="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textName"
+            style="@style/TextView.Tweet.Author.Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="I.C.Winner"
+            />
+
+        <TextView
+            android:id="@+id/textScreenName"
+            style="@style/TextView.Tweet.Author.ScreenName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="\@ICWinner"
+            />
+
+
+        <TextView
+            android:id="@+id/textTweetText"
+            style="@style/TextView.Tweet.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:autoLink="all"
+            tools:text="Tweet text"
+            />
+
+        <TextView
+            android:id="@+id/textTweetStatistics"
+            style="@style/TextView.Tweet.Statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="5 retweets"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

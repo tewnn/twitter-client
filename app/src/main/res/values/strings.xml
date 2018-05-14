@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Switter</string>
+    <plurals name="tweet_n_retweets">
+        <item quantity="one">%d retweet</item>
+        <item quantity="other">%d retweets</item>
+    </plurals>
+    <plurals name="tweet_n_favorites">
+        <item quantity="one">%d favorite</item>
+        <item quantity="other">%d favorites</item>
+    </plurals>
+    <string name="btn_tweet_list_resubscribe">Resubscribe</string>
+    <string name="lbl_tweet_list_error_unknown">Unknown error</string>
+    <string name="lbl_tweet_list_error_no_internet_connection">No internet connection</string>
+    <string name="lbl_tweet_list_error_stream_disconnected">Stream disconnected</string>
+    <string name="lbl_tweet_list_error_server">Server error occurs</string>
+    <string name="lbl_tweet_list_error_protocol_problem">Unexpected message format</string>
+</resources>

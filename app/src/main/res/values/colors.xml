@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/athens_gray</color>
+    <color name="colorPrimaryDark">@color/calypso</color>
+    <color name="colorAccent">@color/dodger_blue</color>
+
+    <color name="textDark">@color/mine_shaft</color>
+    <color name="textGray">@color/star_dust</color>
+</resources>

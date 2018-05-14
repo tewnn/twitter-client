@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="common_padding">16dp</dimen>
+    <dimen name="common_icon_corner_radius">1000dp</dimen>
+
+    <dimen name="tweet_userpic_size">50dp</dimen>
+    <dimen name="tweet_author">20sp</dimen>
+    <dimen name="tweet_text">16sp</dimen>
+    <dimen name="tweet_statistics">14sp</dimen>
+
+</resources>

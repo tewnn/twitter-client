@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="TextView">
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="TextView.Tweet"/>
+
+    <style name="TextView.Tweet.Author">
+        <item name="android:textSize">@dimen/tweet_author</item>
+    </style>
+
+    <style name="TextView.Tweet.Author.Name"/>
+
+    <style name="TextView.Tweet.Author.ScreenName">
+        <item name="android:textColor">@color/textGray</item>
+    </style>
+
+    <style name="TextView.Tweet.Text">
+        <item name="android:textSize">@dimen/tweet_text</item>
+    </style>
+
+    <style name="TextView.Tweet.Statistics">
+        <item name="android:textColor">@color/textGray</item>
+        <item name="android:textSize">@dimen/tweet_statistics</item>
+    </style>
+
+    <style name="ImageView"/>
+
+    <style name="ImageView.UserPic">
+        <item name="android:layout_width">@dimen/tweet_userpic_size</item>
+        <item name="android:layout_height">@dimen/tweet_userpic_size</item>
+        <item name="riv_corner_radius">@dimen/common_icon_corner_radius</item>
+        <item name="android:src">@drawable/ic_placeholder</item>
+    </style>
+
+</resources>
