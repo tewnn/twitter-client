@@ -1,3 +1,3 @@
-# twitter-client
+# Switter: client for Twitter Streaming API
 
-Please add your api key and access token into the file twitter-client/app/src/main/java/com/tewnn/twitterclient/AppEnvironment.kt.
+Please add your api key and access token into the file app/src/main/java/com/tewnn/twitterclient/AppEnvironment.kt.
